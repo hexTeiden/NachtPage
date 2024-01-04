@@ -19,6 +19,9 @@
               <q-item clickable>
                 <q-item-section>3D Modell</q-item-section>
               </q-item>
+              <q-item clickable>
+                <q-item-section>Materialliste</q-item-section>
+              </q-item>
             </q-list>
           </q-menu>
         </q-btn>
@@ -52,7 +55,7 @@ const linksList = [
   {
     title: 'Github',
     icon: 'code',
-    link: 'https://github.com/hexTeiden',
+    link: 'https://github.com/hexTeiden/NachtPage',
   },
   {
     title: 'Google Drive',
@@ -70,9 +73,9 @@ const linksList = [
     link: 'https://quasar.dev',
   },
   {
-    title: 'Used Font',
-    icon: 'chat',
-    link: 'https://fonts.google.com/specimen/Source+Code+Prodev',
+    title: 'Blender',
+    icon: 'public',
+    link: 'https://www.blender.org',
   },
 ];
 
