@@ -3,7 +3,7 @@
     <q-header elevated>
       <q-toolbar class="bg-dark">
         <q-btn flat dense round icon="menu" aria-label="Menu" @click="toggleLeftDrawer" />
-        <q-toolbar-title> Nachtkastel Webpage </q-toolbar-title>
+        <q-toolbar-title> Nachtkastel </q-toolbar-title>
 
         <div>Host: Knogler Matteo</div>
 

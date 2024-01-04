@@ -1,7 +1,7 @@
 <template>
   <q-page class="flex flex-center bg-blue-grey-9">
     <q-layout view="lHh Lpr lFf" class="shadow-2 rounded-borders">
-      <div class="q-pa-md q-gutter-sm">
+      <div class="q-pa-md q-gutter-sm" id="banner">
         <q-banner
           rounded
           :class="$q.dark.isActive ? 'bg-grey-9' : 'bg-grey-2'"
@@ -17,7 +17,7 @@
           </div>
         </q-banner>
       </div>
-      <div class="q-pa-md row items-start q-gutter-md">
+      <div class="q-pa-md row items-start q-gutter-md" id="cards">
         <q-card class="my-card">
           <img src="./images/Matteo.png" />
 
@@ -55,15 +55,18 @@
           </q-card-section>
         </q-card>
       </div>
+      <Popup />
     </q-layout>
   </q-page>
 </template>
 
 <script>
 import { defineComponent } from 'vue';
+import Popup from 'src/components/Popup.vue';
 
 export default defineComponent({
   name: 'IndexPage',
+  components: { Popup },
 });
 </script>
 
