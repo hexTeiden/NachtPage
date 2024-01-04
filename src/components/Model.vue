@@ -4,7 +4,14 @@
       <q-card-section>
         <div class="text-h6">3D Modell</div>
         <div class="text-subtitle2">
-          via <a href="https://www.blender.org" target="_blank">Blender</a>
+          via
+          <a
+            href="https://www.blender.org"
+            target="_blank"
+            class="text-white"
+            style="text-decoration: none"
+            >Blender</a
+          >
         </div>
       </q-card-section>
 
