@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center bg-blue-grey-9">
-    <div class="q-pa-md q-gutter-sm" id="banner">
+    <div class="q-pa-md q-gutter-sm " id="banner">
       <q-banner rounded :class="$q.dark.isActive ? 'bg-grey-9' : 'bg-grey-2'" style="width: 700px">
         <template v-slot:avatar>
           <img src="./images/3D_Modell.png" style="width: 100px; height: 64px" />
@@ -54,7 +54,7 @@
 import { defineComponent } from 'vue';
 import Popup from 'src/components/Popup.vue';
 import Model from 'src/components/Model.vue';
-import Material from 'src/components/Model.vue';
+import Material from 'src/components/Material.vue';
 
 export default defineComponent({
   name: 'IndexPage',
