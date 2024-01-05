@@ -1,7 +1,7 @@
 <template>
   <q-page class="flex flex-center bg-blue-grey-9 col">
     <div class="col flex justify-center">
-      <div class="q-pa-md q-gutter-sm no-wrap col-4" id="banner">
+      <div class="q-pa-md q-gutter-sm no-wrap col-4" id="banner" name="divs">
         <q-banner
           rounded
           :class="$q.dark.isActive ? 'bg-grey-9' : 'bg-grey-2'"
@@ -19,34 +19,40 @@
       </div>
       <div class="q-pa-md row items-start q-gutter-md col-10 no-wrap" id="cards">
         <q-card class="my-card bg-blue-grey-10 text-white">
-          <img src="./images/Matteo.png" />
+          <img src="./images/Matteo.jpg" style="height: 332px" />
 
           <q-card-section>
             <div class="text-h6">Matteo Knogler</div>
             <div class="text-subtitle2">Rolle: Projektleiter</div>
+            <div class="text-subtitle2">Alter: 18</div>
+            <div class="text-subtitle2">Klasse: 3CHIT</div>
           </q-card-section>
         </q-card>
         <q-card class="my-card bg-blue-grey-10 text-white">
-          <img src="./images/Matteo.png" />
+          <img src="./images/Lukas.jpg" />
 
           <q-card-section>
             <div class="text-h6">Lukas Ivejic</div>
             <div class="text-subtitle2">Rolle: Projektmitglied</div>
+            <div class="text-subtitle2">Alter: 16</div>
+            <div class="text-subtitle2">Klasse: 3CHIT</div>
           </q-card-section>
         </q-card>
         <q-card class="my-card bg-blue-grey-10 text-white">
-          <img src="./images/Matteo.png" />
+          <img src="./images/Sayed.jpeg" />
 
           <q-card-section>
             <div class="text-h6">Sayed Sadat</div>
             <div class="text-subtitle2">Rolle: Projektmitglied</div>
+            <div class="text-subtitle2">Alter: 18</div>
+            <div class="text-subtitle2">Klasse: 3CHIT</div>
           </q-card-section>
         </q-card>
       </div>
-      <div class="q-pa-md q-gutter-sm col-4 no-wrap">
+      <div class="q-pa-md q-gutter-sm col-4 no-wrap" id="model">
         <Model />
       </div>
-      <div class="q-pa-md q-gutter-sm col-4 no-wrap">
+      <div class="q-pa-md q-gutter-sm col-4 no-wrap" id="material">
         <Material />
       </div>
       <q-page-sticky position="bottom-right" :offset="[10, 10]" expand>

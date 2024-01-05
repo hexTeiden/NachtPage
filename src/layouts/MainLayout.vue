@@ -10,16 +10,16 @@
         <q-btn flat dense round icon="menu">
           <q-menu>
             <q-list style="min-width: 100px">
-              <q-item clickable>
+              <q-item clickable class="text-black" @click="scrollbanner">
                 <q-item-section>Nachtkastel</q-item-section>
               </q-item>
-              <q-item clickable>
+              <q-item clickable class="text-black" @click="scrollcards">
                 <q-item-section>Projektteam</q-item-section>
               </q-item>
-              <q-item clickable>
+              <q-item clickable class="text-black" @click="scroll3d">
                 <q-item-section>3D Modell</q-item-section>
               </q-item>
-              <q-item clickable>
+              <q-item clickable class="text-black" @click="scrollmaterial">
                 <q-item-section>Materialliste</q-item-section>
               </q-item>
             </q-list>
@@ -81,11 +81,27 @@ const linksList = [
 
 export default defineComponent({
   name: 'MainLayout',
-
+  methods: {
+    scrollbanner() {
+      const banner = document.querySelector('#banner');
+      banner.scrollIntoView();
+    },
+    scrollcards() {
+      const cards = document.querySelector('#cards');
+      cards.scrollIntoView();
+    },
+    scroll3d() {
+      const model = document.querySelector('#model');
+      model.scrollIntoView();
+    },
+    scrollmaterial() {
+      const material = document.querySelector('#material');
+      material.scrollIntoView();
+    },
+  },
   components: {
     EssentialLink,
   },
-
   setup() {
     const leftDrawerOpen = ref(false);
 
