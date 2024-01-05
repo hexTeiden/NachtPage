@@ -1,21 +1,17 @@
 <template>
   <div class="q-pa-md flex flex-center">
-    <q-card class="my-card bg-blue-grey-10 text-white" flat bordered>
+    <q-card class="my-card" flat bordered>
       <q-card-section>
         <div class="text-h6">3D Modell</div>
         <div class="text-subtitle2">
           via
-          <a
-            href="https://www.blender.org"
-            target="_blank"
-            class="text-white"
-            style="text-decoration: none"
+          <a href="https://www.blender.org" target="_blank" style="text-decoration: none"
             >Blender</a
           >
         </div>
       </q-card-section>
 
-      <q-tabs v-model="tab" class="text-white">
+      <q-tabs v-model="tab">
         <q-tab label="Image" name="one" />
         <q-tab label="In Software" name="two" />
         <q-tab label="Software" name="three" />

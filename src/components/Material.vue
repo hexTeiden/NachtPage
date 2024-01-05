@@ -1,12 +1,12 @@
 <template>
   <div class="q-pa-md">
-    <q-card class="my-card bg-blue-grey-10 text-white" flat bordered>
+    <q-card class="my-card" flat bordered>
       <q-card-section>
         <div class="text-h6">Materialliste</div>
         <div class="text-subtitle2">by Matteo Knogler</div>
       </q-card-section>
 
-      <q-markup-table class="bg-blue-grey-10 text-white">
+      <q-markup-table>
         <thead>
           <tr>
             <th class="text-left">Material</th>
