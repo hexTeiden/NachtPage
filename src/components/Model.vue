@@ -5,7 +5,7 @@
         <div class="text-h6">3D Modell</div>
         <div class="text-subtitle2">
           via
-          <a href="https://www.blender.org" target="_blank" style="text-decoration: none"
+          <a href="https://www.blender.org" target="_blank" style="text-decoration: none" class="text-black"
             >Blender</a
           >
         </div>
@@ -31,7 +31,7 @@
 
         <q-tab-panel name="two">
           <q-img
-            src="../pages/images/3D_Modell.png"
+            src="../pages/images/In-App.png"
             :ratio="16 / 9"
             spinner-color="primary"
             spinner-size="82px"
