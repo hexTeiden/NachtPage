@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center bg-blue-grey-9 col">
-    <div class="col flex justify-center">
+    <div class="wrapper">
       <div class="q-pa-md q-gutter-sm no-wrap col-4" id="banner" name="divs">
         <q-banner
           rounded
@@ -17,7 +17,7 @@
           </div>
         </q-banner>
       </div>
-      <div class="q-pa-md row items-start q-gutter-md col-10 no-wrap" id="cards">
+      <div class="q-pa-md row items-start q-gutter-md" id="cards">
         <q-card class="my-card bg-blue-grey-10 text-white">
           <img src="./images/Matteo.jpg" style="height: 332px" />
 
@@ -49,10 +49,10 @@
           </q-card-section>
         </q-card>
       </div>
-      <div class="q-pa-md q-gutter-sm col-4 no-wrap" id="model">
+      <div class="q-pa-md q-gutter-sm" id="model">
         <Model />
       </div>
-      <div class="q-pa-md q-gutter-sm col-4 no-wrap" id="material">
+      <div class="q-pa-md q-gutter-sm" id="material">
         <Material />
       </div>
       <q-page-sticky position="bottom-right" :offset="[10, 10]" expand>
@@ -78,4 +78,8 @@ export default defineComponent({
 .my-card
   width: 100%
   max-width: 250px
+
+.wrapper
+  display: flex
+  flex-direction: column
 </style>
