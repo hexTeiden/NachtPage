@@ -1,18 +1,11 @@
 <template>
-  <div class="fullscreen bg-blue text-white text-center q-pa-md flex flex-center">
+  <div class="bg-blue-grey-10 text-white text-center q-pa-md flex flex-center">
     <div>
-      <div style="font-size: 30vh">
-        404
-      </div>
-
-      <div class="text-h2" style="opacity:.4">
-        Oops. Nothing here...
-      </div>
-
+      <div><Roadmap /></div>
       <q-btn
         class="q-mt-xl"
-        color="white"
-        text-color="blue"
+        color="primary"
+        text-color="white"
         unelevated
         to="/"
         label="Go Home"
@@ -23,9 +16,13 @@
 </template>
 
 <script>
-import { defineComponent } from 'vue'
+import { defineComponent } from 'vue';
+import Roadmap from 'src/components/Roadmap.vue';
 
 export default defineComponent({
-  name: 'ErrorNotFound'
-})
+  name: 'ErrorNotFound',
+  components: {
+    Roadmap,
+  },
+});
 </script>

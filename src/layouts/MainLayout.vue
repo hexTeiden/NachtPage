@@ -22,6 +22,9 @@
               <q-item clickable class="text-black" @click="scrollmaterial">
                 <q-item-section>Materialliste</q-item-section>
               </q-item>
+              <q-item clickable to="/Roadmap">
+                <q-item-section>Roadmap</q-item-section>
+              </q-item>
             </q-list>
           </q-menu>
         </q-btn>
