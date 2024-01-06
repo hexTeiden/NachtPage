@@ -7,9 +7,6 @@
           :class="$q.dark.isActive ? 'bg-grey-9' : 'bg-grey-2'"
           style="width: 800px"
         >
-          <template v-slot:avatar>
-            <img src="./images/3D_Modell.png" style="width: 100px; height: 64px" />
-          </template>
           <div class="text-h5">Willkommen zum Projekt "Nachtkastel"</div>
           <div>
             Die Lösung unseres Projektteams wäre einen Nachtkästchen aus alten bereits gebrauchten

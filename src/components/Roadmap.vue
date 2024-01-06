@@ -67,7 +67,7 @@
 
       <!-- Nachtkasten Part der Roadmap -->
 
-      <q-timeline-entry heading>Nachtkasten</q-timeline-entry>
+      <q-timeline-entry heading>Nachtkastel</q-timeline-entry>
 
       <q-timeline-entry title="3D Modell" subtitle="23 November 2023" side="left" icon="done_all">
         <div>3D Modell wurde erstellt und wird als Richtlinie verwendet.</div>
@@ -80,7 +80,7 @@
         icon="done_all"
       >
         <div>
-          Alle Teile, welche für den Nachtkasten benötigt werden wurden organisiert und in der
+          Alle Teile, welche für das Nachtkastel benötigt werden wurden organisiert und in der
           Schule gelagert.
         </div>
       </q-timeline-entry>
@@ -91,21 +91,21 @@
         side="left"
         icon="done_all"
       >
-        <div>Der Aufbau des Nachtkastens wurde begonnen.</div>
+        <div>Der Aufbau des Nachtkastels wurde begonnen.</div>
       </q-timeline-entry>
 
       <q-timeline-entry
-        title="Fertigstellung des Nachtkastens"
+        title="Fertigstellung des Nachtkastels"
         subtitle="8 Jänner 2024"
         side="right"
         icon="done_all"
       >
-        <div>Der Nachtkasten wurde fertiggestellt und ist bereit präsentiert zu werden.</div>
+        <div>Das Nachtkastel wurde fertiggestellt und ist bereit präsentiert zu werden.</div>
       </q-timeline-entry>
 
       <q-timeline-entry title="Präsentation" subtitle="9 Jänner 2024" side="left" icon="done_all">
         <div>
-          Der Nachtkasten wurde präsentiert und die Dokumentation wurde abgegeben. Das Projekt wurde
+          Das Nachtkastel wurde präsentiert und die Dokumentation wurde abgegeben. Das Projekt wurde
           somit beendet.
         </div>
       </q-timeline-entry>
