@@ -34,7 +34,7 @@
           <q-card-section>
             <div class="text-h5">Projektmitglied</div>
           </q-card-section>
-          <img src="./images/Lukas.jpg" />
+          <img src="./images/Lukas-2.jpg" />
 
           <q-card-section>
             <div class="text-h6">Lukas Ivejic</div>
