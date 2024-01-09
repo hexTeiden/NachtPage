@@ -46,7 +46,7 @@
           <q-card-section>
             <div class="text-h5">Projektmitglied</div>
           </q-card-section>
-          <img src="./images/Sayed.jpeg" />
+          <img src="./images/Sayed.jpg" />
 
           <q-card-section>
             <div class="text-h6">Sayed Sadat</div>
