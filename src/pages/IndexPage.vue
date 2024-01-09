@@ -22,7 +22,7 @@
           <q-card-section>
             <div class="text-h5">Projektleiter</div>
           </q-card-section>
-          <img src="./images/Matteo.jpg" style="height: 332px" />
+          <img src="./images/IMG_8570.jpg" style="height: 332px" />
 
           <q-card-section>
             <div class="text-h6">Matteo Knogler</div>
