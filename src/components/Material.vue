@@ -16,11 +16,11 @@
         <tbody>
           <tr>
             <td class="text-left">Holzplatten</td>
-            <td class="text-right">7</td>
+            <td class="text-right">6</td>
           </tr>
           <tr>
             <td class="text-left">Schrauben</td>
-            <td class="text-right">14</td>
+            <td class="text-right">40</td>
           </tr>
           <tr>
             <td class="text-left">Rollen</td>
